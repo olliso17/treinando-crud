@@ -1,0 +1,133 @@
+body{
+    width: 360px;
+    height:640px;
+    background-color: #6e6868;   
+}
+.Calendario{
+    background-color: #000000;
+    width: 375px;
+    height: 640px;
+    padding:2%;
+    box-sizing: border-box;
+}
+.botao{
+    width: 25px;
+    height: 25px;
+    border: solid 1px transparent;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: 300;
+    color: #FFFFFF;
+    padding: 6px 12px;
+    text-align: center;
+    background-color: none;
+    background: #363636;
+    border-color:#4F4F4F;
+    transition: 0.3s linear 0s;
+    text-decoration:none; 
+}
+.botao:hover{
+    background: #969090;
+    border-color:#636262;
+}
+.titulo{
+    font-size: 30px;
+    text-align: center;
+    color:#FFFFFF
+}
+.semana{
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+    border: solid 1px transparent;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #FFFFFF;
+    padding: 6px 12px;
+    text-align: center;
+    background-color: none;
+    background: #363636;
+    border-color:#4F4F4F;
+    transition: 0.3s linear 0s;
+}
+.semana:hover{
+    background: #969090;
+    border-color:#636262;
+}
+.dia{
+    width: 50px;
+    height: 50px;
+    border: solid 1px transparent;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 300;
+    color: #FFFFFF;
+    padding: 6px 12px;
+    text-align: center;
+    background-color: none;
+    background: #4F4F4F;
+    border-color:#696969;
+    transition: 0.3s linear 0s;
+}
+.dia:hover{
+    background: #969090;
+    border-color:#636262;
+}
+.dia1{
+        width: 50px;
+        height: 50px;
+        border: solid 1px transparent;
+        border-radius: 5px;
+        font-size: 15px;
+        font-weight: 300;
+        padding: 6px 12px;
+        text-align: center;
+        background-color: none;
+        background:#000000;
+    }
+.dia1:hover{
+    background: #969090;
+    border-color:#636262;
+    }
+.nomeLembrete{
+    margin:3%;
+    padding: 2%;
+    width:50%;
+    font-size: 15px;
+    background-color: none;
+    background: #000000;
+    border-color:#4F4F4F;
+    color: #FFFFFF;
+}
+.textoEmArea{
+        width:300px ;
+        height: 100px;
+        background-color: none;
+        background: #000000;
+        border-color:#4F4F4F;
+        color: #FFFFFF;
+        font-size: 15px;
+        margin:3%;
+        padding: 3%;
+    }
+.enviar{
+    width: 50px;
+    height: 50px;
+    margin:3%;
+    border: solid 1px transparent;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #FFFFFF;
+    text-align: center;
+    background-color: none;
+    background: #363636;
+    border-color:#4F4F4F;
+    transition: 0.3s linear 0s;
+}
+.eviar:hover{
+    background: #969090;
+    border-color:#636262;
+}
+

@@ -1,0 +1,31 @@
+{
+  "name": "crud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olliso17/treinando-crud.git"
+  },
+  "author": "Patricia Oliveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olliso17/treinando-crud/issues"
+  },
+  "homepage": "https://github.com/olliso17/treinando-crud#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "consign": "^0.1.6",
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4",
+    "http": "0.0.1-security",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.1.0",
+    "path": "^0.12.7",
+    "sequelize": "^5.21.10"
+  }
+}
